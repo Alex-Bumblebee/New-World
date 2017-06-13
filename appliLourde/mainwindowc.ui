@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowC</class>
+ <widget class="QMainWindow" name="MainWindowC">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>857</width>
+    <height>689</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Visite à faire :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Visite terminé :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Visite concluante :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QRadioButton" name="radioButtonOui">
+      <property name="text">
+       <string>Oui</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QRadioButton" name="radioButtonNon">
+      <property name="text">
+       <string>Non</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Date de la visite : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLabel" name="labelDateVisite">
+      <property name="text">
+       <string>Vide</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Motif de rejet (Si necessaire)  :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Visite concluante : </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Vide</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" rowspan="2" colspan="2">
+     <widget class="QTextEdit" name="textEditMotif"/>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Heure début :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>Vide</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>Heure fin :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>Vide</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Heure début contrôle :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QTimeEdit" name="timeEditDebut"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Heure fin contrôle :</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QTimeEdit" name="timeEditDebut_2"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Terminer votre visite</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3" colspan="2">
+     <widget class="QListWidget" name="listWidgetVisiteTermine"/>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="QListWidget" name="listWidgetVisiteFaire"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>857</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
